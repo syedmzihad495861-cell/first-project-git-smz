@@ -1,9 +1,10 @@
 function findRecipe() {
 
     let ingredient = document
-        .getElementById("ingredient")
-        .value
-        .toLowerCase();
+    .getElementById("ingredient")
+    .value
+    .toLowerCase()
+    .trim();
 
     let result = document.getElementById("result");
 
